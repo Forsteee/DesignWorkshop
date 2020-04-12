@@ -3,5 +3,35 @@
     "url": "http://localhost:4000/api/2543",
     "response": "две тысячи пятьсот сорок три",
     "method": "GET"
-  }
+  },
+  {
+    "url": "http://http://localhost:4000/quadratic?a=1&b=4&c=-1",
+    "response": "[-4.23606797749979,0.2360679774997898]",
+    "method": "GET"
+  },
+  {
+    "url": "http://http://http://localhost:4000/quadratic?a=9&b=5&c=2",
+    "response": "корней нет",
+    "method": "GET"
+  },
+  {
+    "url": "http://http://localhost:4000/day?dateS=12.04.2020",
+    "response": "ВС",
+    "method": "GET"
+  },
+  {
+    "url": "http://localhost:4000/fib/6",
+    "response": "8.000000000000002",
+    "method": "GET"
+  },
+  {
+    "url": "http://localhost:4000/region/777",
+    "response": "г. Москва",
+    "method": "GET"
+  },
+  {
+  "url": "http://localhost:4000/region/72",
+  "response": "Тюменская область",
+  "method": "GET"
+}
 ]
